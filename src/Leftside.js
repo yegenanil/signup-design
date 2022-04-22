@@ -1,3 +1,4 @@
+import Tilt from "react-tilt";
 import styled from "styled-components";
 import img from "./assets/Sitting.svg";
 import vector from "./assets/Vector.svg";
@@ -31,6 +32,11 @@ const Text = styled.span`
 
 const ImageGroup = styled.div`
   position: relative;
+`;
+
+const TiltWrapper = styled(Tilt)`
+  width: 50%;
+  min-width: 500px;
 `;
 
 const Image = styled.img`
@@ -68,7 +74,9 @@ const Leftside = () => {
         <Vector src={vector} alt="Sitting" />
         <Vector2 src={vector} alt="Sitting" />
         <Vector3 src={vector} alt="Sitting" />
-        <Image src={img} />
+        <TiltWrapper options={{ max: 25 }}>
+          <Image src={img} />
+        </TiltWrapper>
       </ImageGroup>
     </Container>
   );
