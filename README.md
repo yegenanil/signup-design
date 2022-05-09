@@ -4,7 +4,7 @@
 
 ### By Oluwadamilare Ogunbolarin
 
-# <a target="_blank"> https://www.figma.com/community/file/1092618245590344272  </a>
+# <a target="_blank" href="https://www.figma.com/community/file/1092618245590344272"> click it  </a>
 
 ## I converted Figma design to React with styled-components, and React-tilt
 
