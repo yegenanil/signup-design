@@ -12,7 +12,7 @@ I converted Figma design to React with styled-components
 
 1. Clone the project & enter the project directory
 ```
-git clone https://github.com/yegenanil/travel-app.git
+git clone https://github.com/yegenanil/travel-app.git && cd travel-app
 ```
 2. Install dependencies via npm/yarn
 ```
