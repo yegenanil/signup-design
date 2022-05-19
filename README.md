@@ -6,7 +6,7 @@ Inspired by Oluwadamilare Ogunbolarin
 
 https://www.figma.com/community/file/1092618245590344272
 
-I converted Figma design to React with styled-components
+I converted Figma design to React via styled-components
 
 ## How to install
 
